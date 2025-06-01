@@ -12,7 +12,6 @@ from sqlalchemy.exc import IntegrityError
 # Создание объекта FastAPI
 app = FastAPI()
 
-# Настройка базы данных MySQL
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://mysql:mysql@localhost/test"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
