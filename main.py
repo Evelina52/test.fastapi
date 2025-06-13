@@ -7,9 +7,6 @@ from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.exc import IntegrityError
 # блок переменных
 
-
-# блок создания объектов
-# Создание объекта FastAPI
 app = FastAPI()
 
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://mysql:mysql@localhost/test"
